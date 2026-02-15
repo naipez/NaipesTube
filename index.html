@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naipes Tube</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/bold/style.css">
+    <link href="./css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <input type="text" name="busqueda" id="search" placeholder="Search">
+        <div class="search">
+            <i class="ph-bold ph-magnifying-glass"></i>
+            <input type="search" name="busqueda" id="search" placeholder="Search">
+        </div>
     </header>
     <main>
         <aside>
@@ -18,28 +22,39 @@
             <h1>Naipes Tube</h1>
             </div>
             <div class="buttons">
-                <p id="pictures">Fotos</p>
-                <p id="videos">Videos</p>
-                <p id="favs">Favoritos</p>
+                <button id="pictures">Fotos</button>
+                <button id="videos">Videos</button>
+                <button id="favs">Favoritos</button>
             </div>
         </aside>
         <div class="video-container">
             <div class="video">
-                <a href="https://youtu.be/3GbcOZpsAL4" target="_blank"><img src="img/KaraokeChino.jpg" alt="KaraokeChino"> <p> 16.11.2025. Karaoke Chino.</p></a>
+                <a href="https://youtu.be/3GbcOZpsAL4" target="_blank">
+                    <img src="img/KaraokeChino.jpg" alt="KaraokeChino">
+                    <p>16.11.2025. Karaoke Chino.</p>
+                </a>
             </div>
             <div class="video">
-                <a href="https://youtu.be/JKhveXsiRaA" target="_blank"><img src="img/KratosMarkV.jpg" alt="KratosMarkV"> <p> 12.10.2025. KratosMarkV</p></a>
+                <a href="https://youtu.be/JKhveXsiRaA" target="_blank">
+                    <img src="img/KratosMarkV.jpg" alt="KratosMarkV">
+                    <p>12.10.2025. KratosMarkV</p>
+                </a>
             </div>
             <div class="video" id="first-video">
-               <a href="https://youtu.be/HRJy_zF5S-E" target="_blank"> <img src="img/CarryOn.jpg" alt="CarryOn"> <p>28.06.2025. Vale Cuatro</p></a>
+               <a href="https://youtu.be/HRJy_zF5S-E" target="_blank">
+                <img src="img/CarryOn.jpg" alt="CarryOn">
+                <p>28.06.2025. Vale Cuatro</p>
+            </a>
             </div>
             <div class="video">
-                <a href="https://youtu.be/EW-HkCwOl9Q" target="_blank"><img src="img/StillHere.jpg" alt="StillHere"> <p> 16.02.2025. Éxtasis</p></a>
+                <a href="https://youtu.be/EW-HkCwOl9Q" target="_blank">
+                    <img src="img/StillHere.jpg" alt="StillHere">
+                    <p>16.02.2025. Éxtasis</p>
+                </a>
             </div>
-            
-            
         </div>
     </main>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
